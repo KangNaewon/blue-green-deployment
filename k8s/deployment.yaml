@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: ba2slk/myapp:v3.0.0
+        image: knw125/blue-green:v3
         ports:
         - containerPort: 5000
 ---
@@ -38,7 +38,7 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: ba2slk/myapp:v3.0.0
+        image: knw125/blue-green:v3
         ports:
         - containerPort: 5000
   strategy:
